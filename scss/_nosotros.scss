@@ -1,4 +1,4 @@
-.banner-titulo{
+.banner-titulo {
   height: 250px;
   display: flex;
   align-items: center;
@@ -6,7 +6,8 @@
   background-color: #FFB3D48E;
   color: #000000;
 }
-.nosotros{
+
+.nosotros {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -14,18 +15,29 @@
 
 }
 
-.valores{
-  padding-top: 2px;
-  padding-bottom: 12px;
-  background-color:$secondary-color;
-  height: 350px;
+.valores {
+  //padding-top: 2px;
+  //padding-bottom: 25rem;
+  background-color: $secondary-color;
+  //height: 350px;
+  //color: #ffffff;
   color: #ffffff;
-  .icon{
+
+  .icon {
     font-size: 50px;
     color: #ffffff;
   }
+  .card-title {
+    font-size: 20px;
+    color: #ffffff;
+  }
+  .card-text {
+    font-size: 15px;
+    color: #ffffff;
+    text-align: justify;
+  }
 }
 
-.photo-gallery{
+.photo-gallery {
   border-top: 1px #2e384d;
 }

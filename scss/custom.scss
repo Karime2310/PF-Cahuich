@@ -1,0 +1,11 @@
+
+
+$primary: #ee1975;
+$font-family: 'Belanosima', sans-serif;
+.btn-primary {
+  color: white!important;
+}
+$theme-colors: (
+        "primary": $primary
+);
+@import "../node_modules/bootstrap/scss/bootstrap";
